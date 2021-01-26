@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 500%;
+}
+.wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+
+.h2-text {
+  position: absolute;
+  margin: 30px 0 0 200px;
+}
+
+.main {
+  position: absolute;
+  height: 400px;
+  width: 750px;
+}
+
+.photo {
+  position: absolute;
+  margin: 80px 0 0 50px;
+}
+
+.details {
+  position: absolute;
+  margin: 50px 0 0 485px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contacts-text {
+  position: absolute;
+  margin: 40px 0 0 800px;
+}
+
+.con-text {
+  margin: 30px 0 0 700px;
+  line-height: 50px;
+}
+
+.hr-contacts {
+  margin: 75px 0 0 530px;
+  height: 0.5px;
+  width: 700px;
+  background-color: black;
+  border: none;
+}
+
+.profile {
+  position: absolute;
+  margin: 100px 0 500px 0;
+}
+
+.text-profile {
+  margin: 0 0 0 300px;
+}
+
+.main-text {
+  position: absolute;
+  display: inline-flex;
+  margin: 370px 0 0 50px;
+  text-align: center;
+}
+
+.hr-profile {
+  height: 0.5px;
+  width: 700px;
+  background-color: black;
+  border: none;
+}
+
+#my-desc {
+  position: absolute;
+  margin: 120px 0 0 360px;
+  line-height: 26px;
+}
+
+.desc {
+  margin: 5px 0 0 2px;
+}
+.blocks {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.ed-table {
+  margin: 50px 0 0 700px;
+  line-height: 50px;
+}
+
+.block {
+  width: 100%;
+  height: 100%;
+}
+
+.block:nth-of-type(1) {
+  height: 177%;
+}
+
+.block:nth-of-type(2) {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4a261;
+}
+
+.utube {
+  position: absolute;
+  margin: 50px 0 0 240px;
+}
+
+.block:nth-of-type(3) {
+  height: 500px;
+  background-color: #e9c46a;
+}
+
+.block:nth-of-type(4) {
+  height: 830px;
+  background-color: #2a9d8f;
+}
+
+.block:nth-of-type(5) {
+  height: 300px;
+  background-color: #264653;
+}
+
+.hello {
+  border-left: 150
+}
